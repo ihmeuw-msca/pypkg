@@ -13,25 +13,23 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath("."))
-from pathlib import Path
+import datetime
 
-import toreplace
+import tomllib
 
-base_dir = Path(toreplace.__file__).parent
-
-about = {}
-with (base_dir / "__about__.py").open() as f:
-    exec(f.read(), about)
+with open("../pyproject.toml", "rb") as f:
+    meta = tomllib.load(f)["project"]
 
 
 # -- Project information -----------------------------------------------------
 
-project = about["__title__"]
-copyright = about["__copyright__"]
-author = about["__author__"]
+project = meta["name"]
+author = ", ".join([info["name"] for info in meta["authors"]])
+copyright = f"2019-{datetime.datetime.today().year}, {author}"
+
 
 # The full version, including alpha/beta/rc tags
-version = about["__version__"]
+version = meta["version"]
 
 
 # -- General configuration ---------------------------------------------------
@@ -93,6 +91,6 @@ html_theme_options = {
         "color-brand-primary": "#6FD8D1",
         "color-brand-content": "#6FD8D1",
         "color-problematic": "#FA9F50",
-        "color-background-secondary": "#202020"
+        "color-background-secondary": "#202020",
     },
 }

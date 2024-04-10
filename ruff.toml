@@ -1,0 +1,8 @@
+# max line length
+line-length = 80
+
+[format]
+docstring-code-format = true
+
+[lint.pydocstyle]
+convention = "numpy"

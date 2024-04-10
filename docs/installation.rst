@@ -1,23 +1,23 @@
 ====================
-Installing toreplace
+Installing pypkg
 ====================
 
 Python version
 --------------
 
-The package :code:`toreplace` is written in Python
+The package :code:`pypkg` is written in Python
 and requires Python 3.10 or later.
 
-Install toreplace
+Install pypkg
 ----------------
 
 Regmod package is distributed at
-`PyPI <https://pypi.org/project/toreplace/>`_.
+`PyPI <https://pypi.org/project/pypkg/>`_.
 To install the package:
 
 .. code::
 
-   pip install toreplace
+   pip install pypkg
 
 For developers
 --------------
@@ -27,6 +27,6 @@ development mode.
 
 .. code::
 
-    git clone https://github.com/ihmeuw-msca/toreplace.git
-    cd toreplace
+    git clone https://github.com/ihmeuw-msca/pypkg.git
+    cd pypkg
     pip install -e ".[test,docs]"
