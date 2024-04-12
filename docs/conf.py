@@ -18,18 +18,18 @@ import datetime
 import tomllib
 
 with open("../pyproject.toml", "rb") as f:
-    meta = tomllib.load(f)["project"]
+    about = tomllib.load(f)["project"]
 
 
 # -- Project information -----------------------------------------------------
 
-project = meta["name"]
-author = ", ".join([info["name"] for info in meta["authors"]])
+project = about["name"]
+author = ", ".join([info["name"] for info in about["authors"]])
 copyright = f"2019-{datetime.datetime.today().year}, {author}"
 
 
 # The full version, including alpha/beta/rc tags
-version = meta["version"]
+version = about["version"]
 
 
 # -- General configuration ---------------------------------------------------
@@ -93,4 +93,10 @@ html_theme_options = {
         "color-problematic": "#FA9F50",
         "color-background-secondary": "#202020",
     },
+}
+# get versions
+with open("meta.toml", "rb") as f:
+    versions = tomllib.load(f)["versions"]
+html_context = {
+    "versions": versions,
 }
