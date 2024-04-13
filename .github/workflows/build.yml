@@ -17,10 +17,6 @@ jobs:
       run: pytest --cov=./ --cov-report=xml
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v4
-      env:
-        env_vars: OS,PYTHON
-        files: ./coverage.xml
-        flags: unittests
-        fail_ci_if_error: true
+      with:
         token: ${{ secrets.CODECOV_TOKEN }}
         slug: ihmeuw-msca/pypkg
