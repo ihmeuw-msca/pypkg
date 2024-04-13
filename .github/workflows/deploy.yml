@@ -47,14 +47,13 @@ jobs:
           git fetch --tags
           cd docs
           python build.py
+          cd ..
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Where are we?
-        run: pwd
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './pages'
+          path: './docs/pages'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
