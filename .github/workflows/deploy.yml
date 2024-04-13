@@ -49,6 +49,8 @@ jobs:
           python build.py
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Where are we?
+        run: pwd
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
