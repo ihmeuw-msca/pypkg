@@ -1,6 +1,6 @@
-====================
+================
 Installing pypkg
-====================
+================
 
 Python version
 --------------
@@ -8,19 +8,13 @@ Python version
 The package :code:`pypkg` is written in Python
 and requires Python 3.10 or later.
 
-Install pypkg
-----------------
-
-Regmod package is distributed at
+:code:`pypkg` package is distributed at
 `PyPI <https://pypi.org/project/pypkg/>`_.
 To install the package:
 
 .. code::
 
    pip install pypkg
-
-For developers
---------------
 
 For developers, you can clone the repository and install the package in the
 development mode.
