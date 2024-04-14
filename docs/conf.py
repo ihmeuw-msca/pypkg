@@ -86,12 +86,16 @@ html_theme_options = {
         "color-brand-content": "#008080",
         "color-problematic": "#BF5844",
         "color-background-secondary": "#F8F8F8",
+        "color-admonition-title--note": "#008080",
+        "color-admonition-title-background---note": "#00808033",
     },
     "dark_css_variables": {
         "color-brand-primary": "#6FD8D1",
         "color-brand-content": "#6FD8D1",
         "color-problematic": "#FA9F50",
         "color-background-secondary": "#202020",
+        "color-admonition-title--note": "#6FD8D1",
+        "color-admonition-title-background---note": "#6FD8D133",
     },
 }
 # get versions
