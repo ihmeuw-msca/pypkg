@@ -7,4 +7,5 @@
         },
         "editor.rulers": [80],
     },
+    "esbonio.sphinx.confDir": "",
 }
