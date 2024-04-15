@@ -5,6 +5,17 @@
 [![codecov](https://img.shields.io/codecov/c/github/ihmeuw-msca/pypkg)](https://codecov.io/gh/ihmeuw-msca/pypkg)
 [![codacy grade](https://app.codacy.com/project/badge/Grade/ae72a07785f5469eac234d1f6bdf555f)](https://app.codacy.com/gh/ihmeuw-msca/pypkg/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
-# This is a template package
+# Python Template Package
 
-Please replace `pypkg` by your own package name.
+PyPkg is a template package to guide you setup your own Python package.
+It can be cloned and used as a starting point for your project.
+We also want to use this documentation to help users understand key concepts
+when building a Python package, include
+
+* Project organization
+* Style guide
+* Testing and documentation
+* Continuous integration and deployment
+
+It will bring standards, consistency and best practices into your projects and 
+make collaborations easier.
