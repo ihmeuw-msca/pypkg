@@ -6,16 +6,16 @@ Project organization
 
     Explain what different files and folders in the repo mean...
 
-
-Overview
---------
+Here we describe what each file and folder in the project means and provide references and examples.
 
 * :code:`.github/workflows`: GitHub Actions workflows for continuous integration and deployment.
     * For more please check :ref:`CI/CD`.
-* :code:`.vscode`: VSCode configurations. We use VSCode as the main IDE.
+* :code:`.vscode`: VSCode configurations.
+    * We use `Visual Studio Code <https://code.visualstudio.com>`_ as our main IDE.
 * :code:`.gitignore`: Files and folders that are ignored by Git.
     * For more please check `here <https://github.com/github/gitignore>`_.
-* :code:`src`: Source code of the project. We will list more information and references below.
+* :code:`src`: Source code of the project.
+    * For a minimum example of the source folder, please check `A simple project <https://packaging.python.org/en/latest/tutorials/packaging-projects/#a-simple-project>`_.
 * :code:`docs`: Documentation of the project.
     * We use `Sphinx <https://www.sphinx-doc.org/en/master/>`_ to build documentation.
     * For more please check :ref:`Documentation`.
@@ -25,6 +25,7 @@ Overview
 * :code:`pyproject.toml`: Metadata of the project. This is enssential for Python packaging.
     * For more information please check `this guide <https://packaging.python.org/en/latest/guides/writing-pyproject-toml/>`_. 
 * :code:`ruff.toml`: Configuration for `Ruff <https://docs.astral.sh/ruff/>`_ linter and formatter.
+    * For more please check :ref:`Style guide`.
 * :code:`LICENSE`: License of the project. Here are some references
     * `Licensing a repository <https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository>`_.
     * `Adding a license to a repository on GitHub <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository>`_.
