@@ -23,7 +23,7 @@ Here we describe what each file and folder in the project means and provide refe
     * We use `Pytest <https://docs.pytest.org/en/stable/>`_ as the testing framework.
     * For more please check :ref:`Testing`.
 * :code:`pyproject.toml`: Metadata of the project. This is enssential for Python packaging.
-    * For more information please check `this guide <https://packaging.python.org/en/latest/guides/writing-pyproject-toml/>`_. 
+    * For more information please check `this guide <https://packaging.python.org/en/latest/guides/writing-pyproject-toml/>`_.
 * :code:`ruff.toml`: Configuration for `Ruff <https://docs.astral.sh/ruff/>`_ linter and formatter.
     * For more please check :ref:`Style guide`.
 * :code:`LICENSE`: License of the project. Here are some references

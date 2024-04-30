@@ -42,6 +42,6 @@ make collaborations easier.
 
    * - :ref:`API reference`
      - :ref:`Developer guide`
-   
+
    * - If you are looking for information on a specific module, function, class or method, this part of the documentation is for you.
      - Want to improve the existing functionalities and documentation? The contributing guidelines will guide you through the process.

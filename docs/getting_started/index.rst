@@ -3,7 +3,7 @@ Getting started
 
 .. toctree::
    :hidden:
-   
+
    installation
    quickstart
 
