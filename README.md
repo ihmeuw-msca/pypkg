@@ -17,5 +17,5 @@ when building a Python package, include
 * Testing and documentation
 * Continuous integration and deployment
 
-It will bring standards, consistency and best practices into your projects and 
+It will bring standards, consistency and best practices into your projects and
 make collaborations easier.
