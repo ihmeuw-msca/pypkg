@@ -12,11 +12,11 @@ Here we describe what each file and folder in the project means and provide refe
     * For more please check :ref:`CI/CD`.
 * :code:`.vscode`: VSCode configurations.
     * We use `Visual Studio Code <https://code.visualstudio.com>`_ as our main IDE.
-    * `Getting Started with Python in VS Code <https://code.visualstudio.com/docs/python/python-tutorial>_`.
+    * `Getting Started with Python in VS Code <https://code.visualstudio.com/docs/python/python-tutorial>`_.
 * :code:`.gitignore`: Files and folders that are ignored by Git.
-    * For formal documentation please check `here <https://git-scm.com/docs/gitignore>_`.
-    * For more please check `here <https://github.com/github/gitignore>`_ for a list of common gitignore.
-    * We use the `gitignore <https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore>_` extension in VSCode to conveniently genterate gitignore file.
+    * For formal documentation please check `here <https://git-scm.com/docs/gitignore>`_.
+    * For more please check `the list of common gitignore <https://github.com/github/gitignore>`_.
+    * We use the `gitignore extension <https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore>`_ in VSCode to conveniently genterate gitignore file.
 * :code:`src`: Source code of the project.
     * For a minimum example of the source folder, please check `A simple project <https://packaging.python.org/en/latest/tutorials/packaging-projects/#a-simple-project>`_.
 * :code:`docs`: Documentation of the project.
@@ -29,11 +29,11 @@ Here we describe what each file and folder in the project means and provide refe
     * For more information please check `this guide <https://packaging.python.org/en/latest/guides/writing-pyproject-toml/>`_.
 * :code:`ruff.toml`: Configuration for `Ruff <https://docs.astral.sh/ruff/>`_ linter and formatter.
     * For more please check :ref:`Style guide`.
-    * We use `Ruff <https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff>_` extension in VSCode to lint and format the code.
+    * We use `Ruff extension <https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff>`_ in VSCode to lint and format the code.
 * :code:`LICENSE`: License of the project. Here are some references
     * `Licensing a repository <https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository>`_.
     * `Adding a license to a repository on GitHub <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository>`_.
-    * Adding a license on VSCode with extention `Choose a License <https://marketplace.visualstudio.com/items?itemName=ultram4rine.vscode-choosealicense>`_.
+    * Adding a license on VSCode with extention `Choose a License extension <https://marketplace.visualstudio.com/items?itemName=ultram4rine.vscode-choosealicense>`_.
 * :code:`README.md`: Main page of the project including
     * Brief description of the project.
     * Installation instructions.
