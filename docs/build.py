@@ -9,7 +9,7 @@ run = functools.partial(subprocess.run, shell=True)
 def build_doc(version: str) -> None:
     run(f"git checkout v{version}")
     run("git checkout main -- conf.py")
-    run("git checkout main -- versions.toml")
+    run("git checkout main -- meta.toml")
 
     run("make html")
     run(f"mv _build/html pages/{version}")
